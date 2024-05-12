@@ -23,6 +23,9 @@ jobs:
         with:
           python-version: 3.x
 
+      - name: Install faker package
+        run: |
+          pip install faker
 
       - name: Run generate.py
         run: python generate.py
