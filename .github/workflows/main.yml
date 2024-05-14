@@ -38,7 +38,7 @@ jobs:
         run: |
           mkdir dist
           cp index.html dist/index.html
-          cp profiles1.json dist/profiles1.json
+          cp data.json dist/data.json
           cp script.js dist/script.js      
       - name: Setup Pages
         uses: actions/configure-pages@v5
