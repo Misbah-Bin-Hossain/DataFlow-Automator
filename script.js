@@ -9,7 +9,7 @@ const showTable = function(moviesArray){
 
 } 
 
-fetch('./data.json')
+fetch('./profiles1.json')
     .then((response) => response.json())
     .then((json) => {
         showTable(json)
