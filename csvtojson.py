@@ -35,7 +35,7 @@ def test_json_rows(json_file, min_rows):
 
 if __name__ == "__main__":
     csv_file = 'profiles1.csv'
-    json_file = 'profiles1.json'
+    json_file = 'data.json'
     min_rows = 900
 
     csv_to_json(csv_file, json_file)
