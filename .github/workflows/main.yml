@@ -30,7 +30,7 @@ jobs:
       - name: Run generate.py
         run: python generate.py
 
-      - name: Run csvtojson.py    #tester inhåller i den här filen
+      - name: Run csvtojson.py     #tester inhåller i den här filen
         run: python csvtojson.py
 
       # Köra ehnetstester      
