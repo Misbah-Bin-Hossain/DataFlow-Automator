@@ -30,9 +30,12 @@ jobs:
       - name: Run generate.py
         run: python generate.py
 
-      - name: Run csvtojson.py     #tester inhåller i den här filen
+      - name: Run csvtojson.py   
         run: python csvtojson.py
 
+      - name: Run unittest.py   
+        run: python unittest.py
+        
       # Köra ehnetstester      
       - name: Copy to dist
         run: |
